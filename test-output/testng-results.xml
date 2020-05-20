@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" ignored="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="37" started-at="2020-05-20T13:15:00 CDT" finished-at="2020-05-20T13:15:00 CDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="37" started-at="2020-05-20T13:15:00 CDT" finished-at="2020-05-20T13:15:00 CDT">
+      <class name="com.rakesh.AppTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.rakesh.AppTest@67784306]" name="setUp" is-config="true" duration-ms="329" started-at="2020-05-20T13:15:00 CDT" finished-at="2020-05-20T13:15:00 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="sampleTestCase1(com.rakesh.utilities.TestDataHolder)[pri:0, instance:com.rakesh.AppTest@67784306]" name="sampleTestCase1" duration-ms="4" started-at="2020-05-20T13:15:00 CDT" data-provider="dp" finished-at="2020-05-20T13:15:00 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.rakesh.utilities.TestDataHolder@c0c2f8d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTestCase1 -->
+        <test-method status="PASS" signature="sampleTestCase2(com.rakesh.utilities.TestDataHolder)[pri:0, instance:com.rakesh.AppTest@67784306]" name="sampleTestCase2" duration-ms="1" started-at="2020-05-20T13:15:00 CDT" data-provider="dp" finished-at="2020-05-20T13:15:00 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.rakesh.utilities.TestDataHolder@71e9ddb4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTestCase2 -->
+        <test-method status="SKIP" signature="sampleTestCase4(com.rakesh.utilities.TestDataHolder)[pri:0, instance:com.rakesh.AppTest@67784306]" name="sampleTestCase4" duration-ms="0" started-at="2020-05-20T13:15:00 CDT" data-provider="dp" finished-at="2020-05-20T13:15:00 CDT">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.AssertionError: No data exists for this test case.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.AssertionError: No data exists for this test case.
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:50)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:146)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:820)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:762)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:60)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:39)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:771)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.AssertionError: No data exists for this test case.
+at org.testng.Assert.fail(Assert.java:97)
+at com.rakesh.utilities.ExcelReader.getExcelDataForTestCaseName(ExcelReader.java:50)
+at com.rakesh.utilities.Utilities.dataProviderMethod(Utilities.java:18)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:77)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:46)
+... 25 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTestCase4 -->
+      </class> <!-- com.rakesh.AppTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
